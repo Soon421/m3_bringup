@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>m3_driver</name>
+  <version>0.0.0</version>
+  <description>ISR-M3 drivers for ROS2 usage</description>
+  <maintainer email="isr3856@gmail.com">ISR Lab</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_msgs</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>sdl2</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

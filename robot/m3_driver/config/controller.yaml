@@ -1,0 +1,17 @@
+KEYBOARD:
+  delta_v: 0.1
+  delta_w: 0.05
+
+JOY:
+  joy_axis_linear: 1
+  joy_axis_angular: 0
+  joy_button_move: 0
+  joy_button_help: 6
+  joy_button_toggle: 3
+  joy_button_emergency_stop: 4
+  joy_button_autonomous_toggle: 1
+  joy_button_status_report: 7
+  joy_scale_linear: 0.8
+  joy_scale_angular: 0.7
+  joy_deadzone: 0.05
+  joy_device_index: 0

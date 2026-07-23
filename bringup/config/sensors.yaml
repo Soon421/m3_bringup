@@ -1,0 +1,30 @@
+# 사용할 센서만 true (수정 후 colcon build 필요. --symlink-install 빌드면 바로 반영)
+SENSORS:
+  lidar: true
+  imu: true
+  gps: false
+
+IMU:
+  port: "/dev/ttyUSB0"
+  frame_id: "imu_link"
+  scan_for_devices: true
+  output_data_rate: 100
+  pub_transform: false
+
+GPS:
+  port: "/dev/ttyUSB1"
+  baudrate: 115200
+
+LIDAR:
+  device_ip: "192.168.1.203"
+  port: 2370
+  frame_id: "velodyne"
+  model: "VLP16"
+  rpm: 600.0
+  gps_time: false
+  time_offset: 0.0
+  enabled: true
+  read_once: false
+  read_fast: false
+  repeat_delay: 0.0
+  timestamp_first_packet: false
