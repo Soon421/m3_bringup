@@ -12,3 +12,5 @@
 /src/rtcm_logger_pkg/
 /rtcm_log/
 *.txt
+# CMakeLists.txt must not be excluded by *.txt (needed for colcon build)
+!CMakeLists.txt
